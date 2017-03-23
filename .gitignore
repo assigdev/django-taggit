@@ -6,3 +6,9 @@ _build/
 .cache/
 .coverage
 .eggs/
+
+### Covers JetBrains IDEs: IntelliJ, PyCharm, WebStorm, RubyMine, PhpStorm, AppCode ###
+
+*.iml
+.idea/
+Будет удалено .idea/
