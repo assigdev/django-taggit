@@ -135,7 +135,7 @@ def _edit_string_for_tags(tags):
             names.append('"%s"' % name)
         else:
             names.append(name)
-    return ', '.join(sorted(names))
+    return ', '.join(names)  # return ', '.join(sorted(names))
 
 
 def require_instance_manager(func):
